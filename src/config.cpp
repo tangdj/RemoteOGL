@@ -46,9 +46,13 @@ Config::Config(string filename, string id){
 		CFG_END()
 	};
 	
-	cfg_t *cfg;
+	nBytes = 4;
+	format = GL_RGBA;
+	pixel =NULL;
 
+	cfg_t *cfg;
 	cfg = cfg_init(opts, CFGF_NONE);
+	
 	
 	int parse_result = cfg_parse(cfg, filename.c_str());
 	
@@ -126,7 +130,7 @@ Config::Config(string filename, string id){
 	
 		serverPort = port;
 	}
-	
+
 	if(!found_section && id != "capture"){
 		LOG("Couldn't find output '%s' in config file\n", id.c_str());
 		exit(1);

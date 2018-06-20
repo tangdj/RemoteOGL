@@ -20,7 +20,9 @@
 #include "lru_cache.h"
 #include "module.h"
 #include "mongoose.h"
-
+#include <iostream>
+#include <Imlib2.h>
+using namespace std;
 
 /*******************************************************************************
 	Statistics collector

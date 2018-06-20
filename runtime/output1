@@ -1,0 +1,8019 @@
+(cgl-capture: Using /home/dongjitang/Mesa/clustergl/runtime/libcgl-capture.so)
+[[32m         mod_app.cpp:  642[m]	SDL_Init (0, 0)
+[[32m         mod_app.cpp:  818[m]	XOpenDisplay (0, 0, (null))
+**********************************************
+ ClusterGL(renderer - capture)
+**********************************************
+[[32m          config.cpp:    8[m]	Loading configuration for 'capture' from './single.conf'
+Webserver: set_ports_option: cannot bind to 8081: Address already in use
+[[32m          config.cpp:  160[m]	Failed to start webserver!
+[[32m            main.cpp:   71[m]	Found output: 10.0.3.51:12345
+[[32m         mod_app.cpp:  127[m]	INIT AppModule
+[[32m   mod_netclient.cpp:   58[m]	Connected to remote pipeline on 10.0.3.51:12345
+[[32m         mod_app.cpp:  818[m]	XOpenDisplay (1, 1, (null))
+[[32m         mod_app.cpp:  818[m]	XOpenDisplay (1, 1, (null))
+[[32m         mod_app.cpp:  662[m]	Ignored a second/non-video SDL_Init()
+[[32m         mod_app.cpp: 3276[m]	glViewport 0 0 640 480
+Packet size: 4
+Image size: 921654
+ 
+Reply sent
+ 
+Packet received.
+test0.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 4049
+Written image size: 4049
+Total received image size: 106439
+ 
+ 
+Packet number received: 12
+Packet size: 6190
+Written image size: 6190
+Total received image size: 112629
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 91
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 92
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test1.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test2.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test3.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test4.bmp
+
+********************************************
+Total over the last 1000ms:
+ ticks: 55
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3078
+********************************************
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test5.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test6.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test7.bmp
+
+********************************************
+Total over the last 1000ms:
+ ticks: 61
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3159
+********************************************
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test8.bmp
+
+********************************************
+Total over the last 1000ms:
+ ticks: 60
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3120
+********************************************
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747447
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757686
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767925
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778164
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788403
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798642
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808881
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819120
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829359
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839598
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849837
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860076
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870315
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880554
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890793
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901032
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911271
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921510
+ 
+ 
+Packet number received: 91
+Packet size: 144
+Written image size: 144
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test9.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 72
+Written image size: 72
+Total received image size: 737280
+ 
+ 
+
+********************************************
+Total over the last 1000ms:
+ ticks: 60
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3119
+********************************************
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747519
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757758
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767997
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778236
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788475
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798714
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808953
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819192
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829431
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839670
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849909
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860148
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870387
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880626
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890865
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901104
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911343
+ 
+ 
+Packet number received: 91
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921582
+ 
+ 
+Packet number received: 92
+Packet size: 72
+Written image size: 72
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test10.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10167
+Written image size: 10167
+Total received image size: 716658
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726897
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737136
+ 
+ 
+Packet number received: 73
+Packet size: 144
+Written image size: 144
+Total received image size: 737280
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747519
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757758
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767997
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778236
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788475
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798714
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808953
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819192
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829431
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839670
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849909
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860148
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870387
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880626
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890865
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901104
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911343
+ 
+ 
+Packet number received: 91
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921582
+ 
+ 
+Packet number received: 92
+Packet size: 72
+Written image size: 72
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test11.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 327648
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 337887
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 348126
+ 
+ 
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 358365
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 368604
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 378843
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 389082
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 399321
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 409560
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 419799
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 430038
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 440277
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 450516
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 460755
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 470994
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 481233
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 491472
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 501711
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 511950
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 522189
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 532428
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 542667
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 552906
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 563145
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 573384
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 583623
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 593862
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 604101
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 614340
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 624579
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 634818
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 645057
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 655296
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 665535
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 675774
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 686013
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 696252
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 706491
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 716730
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 726969
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 737208
+ 
+ 
+Packet number received: 73
+Packet size: 72
+Written image size: 72
+Total received image size: 737280
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 747519
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 757758
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 767997
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 778236
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 788475
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 798714
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 808953
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 819192
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 829431
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 839670
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 849909
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 860148
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 870387
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 880626
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 890865
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 901104
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 911343
+ 
+ 
+Packet number received: 91
+Packet size: 10239
+Written image size: 10239
+Total received image size: 921582
+ 
+ 
+Packet number received: 92
+Packet size: 72
+Written image size: 72
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test12.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10167
+Written image size: 10167
+Total received image size: 102318
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112557
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122796
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133035
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143274
+ 
+ 
+Packet number received: 15
+Packet size: 4128
+Written image size: 4128
+Total received image size: 147402
+ 
+ 
+147 frames in 5.006 seconds = 29.3648 FPS
+
+********************************************
+Total over the last 1000ms:
+ ticks: 61
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3080
+********************************************
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 157641
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 167880
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 178119
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 188358
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 198597
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 208836
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 219075
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 229314
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 239553
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 249792
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 260031
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 270270
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 280509
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 290748
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 300987
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 311226
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 321465
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 331704
+ 
+ 
+Packet number received: 34
+Packet size: 8210
+Written image size: 8210
+Total received image size: 339914
+ 
+ 
+
+********************************************
+Total over the last 1000ms:
+ ticks: 61
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3160
+********************************************
+Packet number received: 35
+Packet size: 10239
+Written image size: 10239
+Total received image size: 350153
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 360392
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 370631
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 380870
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 391109
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 401348
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 411587
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 421826
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 432065
+ 
+ 
+Packet number received: 44
+Packet size: 10239
+Written image size: 10239
+Total received image size: 442304
+ 
+ 
+Packet number received: 45
+Packet size: 10239
+Written image size: 10239
+Total received image size: 452543
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 462782
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 473021
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 483260
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 493499
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 503738
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 513977
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 524216
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 534455
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 544694
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 554933
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 565172
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 575411
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 585650
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 595889
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 606128
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 616367
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 626606
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 636845
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 647084
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 657323
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 667562
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 677801
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 688040
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 698279
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 708518
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 718757
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 728996
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 739235
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 749474
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 759713
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 769952
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 780191
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 790430
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 800669
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 810908
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 821147
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 831386
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 841625
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 851864
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 862103
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 872342
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 882581
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 892820
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 903059
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 913298
+ 
+ 
+Packet number received: 91
+Packet size: 8356
+Written image size: 8356
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test13.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 10239
+Written image size: 10239
+Total received image size: 296931
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 307170
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 317409
+ 
+ 
+Packet number received: 32
+Packet size: 1883
+Written image size: 1883
+Total received image size: 319292
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 329531
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 339770
+ 
+ 
+Packet number received: 35
+Packet size: 144
+Written image size: 144
+Total received image size: 339914
+ 
+ 
+Packet number received: 36
+Packet size: 10239
+Written image size: 10239
+Total received image size: 350153
+ 
+ 
+Packet number received: 37
+Packet size: 10239
+Written image size: 10239
+Total received image size: 360392
+ 
+ 
+Packet number received: 38
+Packet size: 10239
+Written image size: 10239
+Total received image size: 370631
+ 
+ 
+Packet number received: 39
+Packet size: 10239
+Written image size: 10239
+Total received image size: 380870
+ 
+ 
+Packet number received: 40
+Packet size: 10239
+Written image size: 10239
+Total received image size: 391109
+ 
+ 
+Packet number received: 41
+Packet size: 10239
+Written image size: 10239
+Total received image size: 401348
+ 
+ 
+Packet number received: 42
+Packet size: 10239
+Written image size: 10239
+Total received image size: 411587
+ 
+ 
+Packet number received: 43
+Packet size: 10239
+Written image size: 10239
+Total received image size: 421826
+ 
+ 
+Packet number received: 44
+Packet size: 4049
+Written image size: 4049
+Total received image size: 425875
+ 
+ 
+Packet number received: 45
+Packet size: 6190
+Written image size: 6190
+Total received image size: 432065
+ 
+ 
+Packet number received: 46
+Packet size: 10239
+Written image size: 10239
+Total received image size: 442304
+ 
+ 
+Packet number received: 47
+Packet size: 10239
+Written image size: 10239
+Total received image size: 452543
+ 
+ 
+Packet number received: 48
+Packet size: 10239
+Written image size: 10239
+Total received image size: 462782
+ 
+ 
+Packet number received: 49
+Packet size: 10239
+Written image size: 10239
+Total received image size: 473021
+ 
+ 
+Packet number received: 50
+Packet size: 10239
+Written image size: 10239
+Total received image size: 483260
+ 
+ 
+Packet number received: 51
+Packet size: 10239
+Written image size: 10239
+Total received image size: 493499
+ 
+ 
+Packet number received: 52
+Packet size: 10239
+Written image size: 10239
+Total received image size: 503738
+ 
+ 
+Packet number received: 53
+Packet size: 10239
+Written image size: 10239
+Total received image size: 513977
+ 
+ 
+Packet number received: 54
+Packet size: 10239
+Written image size: 10239
+Total received image size: 524216
+ 
+ 
+Packet number received: 55
+Packet size: 10239
+Written image size: 10239
+Total received image size: 534455
+ 
+ 
+Packet number received: 56
+Packet size: 10239
+Written image size: 10239
+Total received image size: 544694
+ 
+ 
+Packet number received: 57
+Packet size: 10239
+Written image size: 10239
+Total received image size: 554933
+ 
+ 
+Packet number received: 58
+Packet size: 10239
+Written image size: 10239
+Total received image size: 565172
+ 
+ 
+Packet number received: 59
+Packet size: 10239
+Written image size: 10239
+Total received image size: 575411
+ 
+ 
+Packet number received: 60
+Packet size: 10239
+Written image size: 10239
+Total received image size: 585650
+ 
+ 
+Packet number received: 61
+Packet size: 10239
+Written image size: 10239
+Total received image size: 595889
+ 
+ 
+Packet number received: 62
+Packet size: 10239
+Written image size: 10239
+Total received image size: 606128
+ 
+ 
+Packet number received: 63
+Packet size: 10239
+Written image size: 10239
+Total received image size: 616367
+ 
+ 
+Packet number received: 64
+Packet size: 10239
+Written image size: 10239
+Total received image size: 626606
+ 
+ 
+Packet number received: 65
+Packet size: 10239
+Written image size: 10239
+Total received image size: 636845
+ 
+ 
+Packet number received: 66
+Packet size: 10239
+Written image size: 10239
+Total received image size: 647084
+ 
+ 
+Packet number received: 67
+Packet size: 10239
+Written image size: 10239
+Total received image size: 657323
+ 
+ 
+Packet number received: 68
+Packet size: 10239
+Written image size: 10239
+Total received image size: 667562
+ 
+ 
+Packet number received: 69
+Packet size: 10239
+Written image size: 10239
+Total received image size: 677801
+ 
+ 
+Packet number received: 70
+Packet size: 10239
+Written image size: 10239
+Total received image size: 688040
+ 
+ 
+Packet number received: 71
+Packet size: 10239
+Written image size: 10239
+Total received image size: 698279
+ 
+ 
+Packet number received: 72
+Packet size: 10239
+Written image size: 10239
+Total received image size: 708518
+ 
+ 
+Packet number received: 73
+Packet size: 10239
+Written image size: 10239
+Total received image size: 718757
+ 
+ 
+Packet number received: 74
+Packet size: 10239
+Written image size: 10239
+Total received image size: 728996
+ 
+ 
+Packet number received: 75
+Packet size: 10239
+Written image size: 10239
+Total received image size: 739235
+ 
+ 
+Packet number received: 76
+Packet size: 10239
+Written image size: 10239
+Total received image size: 749474
+ 
+ 
+Packet number received: 77
+Packet size: 10239
+Written image size: 10239
+Total received image size: 759713
+ 
+ 
+Packet number received: 78
+Packet size: 10239
+Written image size: 10239
+Total received image size: 769952
+ 
+ 
+Packet number received: 79
+Packet size: 10239
+Written image size: 10239
+Total received image size: 780191
+ 
+ 
+Packet number received: 80
+Packet size: 10239
+Written image size: 10239
+Total received image size: 790430
+ 
+ 
+Packet number received: 81
+Packet size: 10239
+Written image size: 10239
+Total received image size: 800669
+ 
+ 
+Packet number received: 82
+Packet size: 10239
+Written image size: 10239
+Total received image size: 810908
+ 
+ 
+Packet number received: 83
+Packet size: 10239
+Written image size: 10239
+Total received image size: 821147
+ 
+ 
+Packet number received: 84
+Packet size: 10239
+Written image size: 10239
+Total received image size: 831386
+ 
+ 
+Packet number received: 85
+Packet size: 10239
+Written image size: 10239
+Total received image size: 841625
+ 
+ 
+Packet number received: 86
+Packet size: 10239
+Written image size: 10239
+Total received image size: 851864
+ 
+ 
+Packet number received: 87
+Packet size: 10239
+Written image size: 10239
+Total received image size: 862103
+ 
+ 
+Packet number received: 88
+Packet size: 10239
+Written image size: 10239
+Total received image size: 872342
+ 
+ 
+Packet number received: 89
+Packet size: 10239
+Written image size: 10239
+Total received image size: 882581
+ 
+ 
+Packet number received: 90
+Packet size: 10239
+Written image size: 10239
+Total received image size: 892820
+ 
+ 
+Packet number received: 91
+Packet size: 10239
+Written image size: 10239
+Total received image size: 903059
+ 
+ 
+Packet number received: 92
+Packet size: 10239
+Written image size: 10239
+Total received image size: 913298
+ 
+ 
+Packet number received: 93
+Packet size: 8356
+Written image size: 8356
+Total received image size: 921654
+ 
+ 
+Image successfully Received!
+Packet received.
+test14.bmp
+Packet number received: 1
+Packet size: 10239
+Written image size: 10239
+Total received image size: 10239
+ 
+ 
+Packet number received: 2
+Packet size: 10239
+Written image size: 10239
+Total received image size: 20478
+ 
+ 
+Packet number received: 3
+Packet size: 10239
+Written image size: 10239
+Total received image size: 30717
+ 
+ 
+Packet number received: 4
+Packet size: 10239
+Written image size: 10239
+Total received image size: 40956
+ 
+ 
+Packet number received: 5
+Packet size: 10239
+Written image size: 10239
+Total received image size: 51195
+ 
+ 
+Packet number received: 6
+Packet size: 10239
+Written image size: 10239
+Total received image size: 61434
+ 
+ 
+Packet number received: 7
+Packet size: 10239
+Written image size: 10239
+Total received image size: 71673
+ 
+ 
+Packet number received: 8
+Packet size: 10239
+Written image size: 10239
+Total received image size: 81912
+ 
+ 
+Packet number received: 9
+Packet size: 10239
+Written image size: 10239
+Total received image size: 92151
+ 
+ 
+Packet number received: 10
+Packet size: 10239
+Written image size: 10239
+Total received image size: 102390
+ 
+ 
+Packet number received: 11
+Packet size: 10239
+Written image size: 10239
+Total received image size: 112629
+ 
+ 
+Packet number received: 12
+Packet size: 10239
+Written image size: 10239
+Total received image size: 122868
+ 
+ 
+Packet number received: 13
+Packet size: 10239
+Written image size: 10239
+Total received image size: 133107
+ 
+ 
+Packet number received: 14
+Packet size: 10239
+Written image size: 10239
+Total received image size: 143346
+ 
+ 
+Packet number received: 15
+Packet size: 10239
+Written image size: 10239
+Total received image size: 153585
+ 
+ 
+Packet number received: 16
+Packet size: 10239
+Written image size: 10239
+Total received image size: 163824
+ 
+ 
+Packet number received: 17
+Packet size: 10239
+Written image size: 10239
+Total received image size: 174063
+ 
+ 
+Packet number received: 18
+Packet size: 10239
+Written image size: 10239
+Total received image size: 184302
+ 
+ 
+Packet number received: 19
+Packet size: 10239
+Written image size: 10239
+Total received image size: 194541
+ 
+ 
+Packet number received: 20
+Packet size: 10239
+Written image size: 10239
+Total received image size: 204780
+ 
+ 
+Packet number received: 21
+Packet size: 10239
+Written image size: 10239
+Total received image size: 215019
+ 
+ 
+Packet number received: 22
+Packet size: 10239
+Written image size: 10239
+Total received image size: 225258
+ 
+ 
+Packet number received: 23
+Packet size: 10239
+Written image size: 10239
+Total received image size: 235497
+ 
+ 
+Packet number received: 24
+Packet size: 10239
+Written image size: 10239
+Total received image size: 245736
+ 
+ 
+Packet number received: 25
+Packet size: 10239
+Written image size: 10239
+Total received image size: 255975
+ 
+ 
+Packet number received: 26
+Packet size: 10239
+Written image size: 10239
+Total received image size: 266214
+ 
+ 
+Packet number received: 27
+Packet size: 10239
+Written image size: 10239
+Total received image size: 276453
+ 
+ 
+Packet number received: 28
+Packet size: 10239
+Written image size: 10239
+Total received image size: 286692
+ 
+ 
+Packet number received: 29
+Packet size: 1883
+Written image size: 1883
+Total received image size: 288575
+ 
+ 
+Packet number received: 30
+Packet size: 10239
+Written image size: 10239
+Total received image size: 298814
+ 
+ 
+Packet number received: 31
+Packet size: 10239
+Written image size: 10239
+Total received image size: 309053
+ 
+ 
+Packet number received: 32
+Packet size: 10239
+Written image size: 10239
+Total received image size: 319292
+ 
+ 
+Packet number received: 33
+Packet size: 10239
+Written image size: 10239
+Total received image size: 329531
+ 
+ 
+Packet number received: 34
+Packet size: 10239
+Written image size: 10239
+Total received image size: 339770
+ 
+ 
+Packet number received: 35
+Packet size: 144
+Written image size: 144
+Total received image size: 339914
+ 
+ 
+
+********************************************
+Total over the last 1000ms:
+ ticks: 60
+
+Average per tick over the last 1000ms:
+ Delta replace: 0
+ mod_netclient write: 3121
+********************************************

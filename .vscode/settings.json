@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "hash_map": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "cerrno": "cpp",
+        "functional": "cpp",
+        "typeinfo": "cpp"
+    }
+}

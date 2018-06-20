@@ -83,7 +83,7 @@ bool NetClientModule::process(vector<Instruction *> *list)
 	for(int n=0;n<(int)list->size();n++){
 		
 		Instruction *i = (*list)[n];
-		
+		//LOG_INSTRUCTION(i);
 		//Check for NULL buffers and reset length if necessary
 		for(int n=0;n<3;n++) {
 			int l = i->buffers[n].len;

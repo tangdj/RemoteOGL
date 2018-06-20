@@ -16,6 +16,11 @@ public:
 	//Size of this renderer
     int sizeX;
     int sizeY;
+
+    //Pixel
+    unsigned int format;
+    unsigned char* pixel;
+    int nBytes;
     
 	//Position on screen of this renderer
     int positionX;

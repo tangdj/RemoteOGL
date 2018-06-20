@@ -35,6 +35,7 @@ int App::run(int argc, char **argv)
 	mModules.push_back(new ExecModule());
 
 	while( tick() ){ 
+	//	cout<<"tick()"<<endl;
 		//run tick() until we decide to bail
 	}
 	
@@ -53,6 +54,7 @@ bool App::run_shared(string src)
 		return false;
 	}
 	
+	//cout<<"capture "<<endl;
 	//Load the config file
 	init(true, "capture");
 	
@@ -214,6 +216,7 @@ App *theApp = NULL;
 
 int main( int argc, char **argv )
 {
+	cout<<"Hello World "<<endl;
 	theApp = new App();
 	int ret = theApp->run(argc, argv);
 	delete theApp;

@@ -12,9 +12,11 @@
  
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <SDL/SDL.h>
+#include <string.h>
 
 /* screen width, height, and bit depth */
 #define SCREEN_WIDTH  640
@@ -25,6 +27,11 @@
 #define TRUE  1
 #define FALSE 0
 
+static const GLenum FORMAT = GL_BGR;
+static const GLuint FORMAT_NBYTES = 3;
+static GLubyte *pixels = NULL;
+static unsigned int nscreenshots = 0;
+static unsigned int nvideos = 0;
 /* This is our SDL surface */
 SDL_Surface *surface;
 
@@ -97,6 +104,10 @@ int initGL( GLvoid )
 
     /* Enable smooth shading */
     glShadeModel( GL_SMOOTH );
+    
+    pixels = malloc(FORMAT_NBYTES * SCREEN_WIDTH * SCREEN_HEIGHT);
+   
+   // glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 
     /* Set the background black */
     glClearColor( 0.0f, 0.0f, 0.0f, 0.0f );
@@ -341,7 +352,74 @@ void draw4()
     glDisableClientState(GL_NORMAL_ARRAY);
 }
 
+char* concat(const char *s1, const char *s2)
+{
+    char *result = malloc(strlen(s1)+strlen(s2)+1);//+1 for the null-terminator
+    //in real code you would check for errors in malloc here
+    strcpy(result, s1);
+    strcat(result, s2);
+    return result;
+}
 
+static void create_ppm(char *prefix, int frame_id, unsigned int width, unsigned int height,
+        unsigned int color_max, unsigned int pixel_nbytes, GLubyte *pixels) {
+
+    enum Constants { max_filename = 256, max_videoname=256 };
+    char filename[max_filename];
+    char videoname[max_videoname];
+    snprintf(filename, max_filename, "%s%d.bmp", prefix, frame_id);
+    unsigned char bmp_file_header[14] = { 'B', 'M', 0, 0, 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, };
+	unsigned char bmp_info_header[40] = { 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 24, 0, };
+	unsigned char bmp_pad[3] = { 0, 0, 0 };
+
+	const int size = 54 + width * height * pixel_nbytes;
+
+	bmp_file_header[2] = (unsigned char)size;
+	bmp_file_header[3] = (unsigned char)(size >> 8);
+	bmp_file_header[4] = (unsigned char)(size >> 16);
+	bmp_file_header[5] = (unsigned char)(size >> 24);
+
+	bmp_info_header[4] = (unsigned char)(width);
+	bmp_info_header[5] = (unsigned char)(width >> 8);
+	bmp_info_header[6] = (unsigned char)(width >> 16);
+	bmp_info_header[7] = (unsigned char)(width >> 24);
+
+	bmp_info_header[8] = (unsigned char)(height);
+	bmp_info_header[9] = (unsigned char)(height >> 8);
+	bmp_info_header[10] = (unsigned char)(height >> 16);
+        bmp_info_header[11] = (unsigned char)(height >> 24);
+        FILE *f = fopen(filename, "wb");
+        if (f)
+	{
+		fwrite(bmp_file_header, 1, 14, f);
+		fwrite(bmp_info_header, 1, 40, f);
+
+		for (int i = 0; i < height; i++)
+		// for (int i = (height - 1); i >= 0; i--)
+		{
+			fwrite(pixels + (width * i * 3), 3, width, f);
+			fwrite(bmp_pad, 1, ((4 - (width * 3) % 4) % 4), f);
+		}
+
+		fclose(f);
+
+		//return;
+	}
+        if(frame_id>=100)
+        {
+           frame_id=-1;
+           printf("%s\n","Hello!!!");
+           nvideos++;
+           snprintf(videoname, max_videoname, "%s%d.mov", "out", nvideos);
+           char* command = concat("./ffmpeg.sh ",videoname);
+           system(command);
+           
+        }
+        
+        while(frame_id==-1&&access(videoname, F_OK ) == -1);
+        
+        return;
+}
 
 
 
@@ -352,6 +430,7 @@ int drawGLScene( GLvoid )
 
 
     /* rotational vars for the triangle and quad, respectively */
+    /*static GLfloat rtri, rquad;*/
     static GLfloat rtri, rquad;
     /* These are to calculate our fps */
     static GLint T0     = 0;
@@ -369,10 +448,20 @@ int drawGLScene( GLvoid )
     glRotatef( rtri, 0.0f, 1.0f, 0.0f );
     glRotatef( rquad, 1.0f, 0.0f, 1.0f );
     
-	draw3();
+	draw1();
    
     /* Draw it to the screen */
     SDL_GL_SwapBuffers( );
+    //glutSwapBuffers();
+   // glReadPixels(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, FORMAT, GL_UNSIGNED_BYTE, pixels);
+    
+     //for(int i=0;i<8;i++)
+      //printf("%u\n",strlen(pixels));
+    //create_ppm("tmp", nscreenshots, SCREEN_WIDTH, SCREEN_HEIGHT, 255, 4, pixels);
+    if(nscreenshots>=100)
+      nscreenshots=0;
+    else
+     nscreenshots++;
 
     /* Gather our frames per second */
     Frames++;
@@ -466,44 +555,15 @@ int main( int argc, char **argv )
 
     /* wait for events */ 
     while ( !done )
-	{
-	    /* handle the events in the queue */
+   	{
+	 
 
-	    while ( SDL_PollEvent( &event ) )
+  	    while ( SDL_PollEvent( &event ) )
 		{
 		    switch( event.type )
 			{
-			case SDL_ACTIVEEVENT:
-			    /* Something's happend with our focus
-			     * If we lost focus or we are iconified, we
-			     * shouldn't draw the screen
-			     */
-			     /*
-			    if ( event.active.gain == 0 )
-				isActive = FALSE;
-			    else
-				isActive = TRUE;
-			    break;		
-			    */	    
-			    break;
-			case SDL_VIDEORESIZE:
-			    /* handle resize event */
-			    surface = SDL_SetVideoMode( event.resize.w,
-							event.resize.h,
-							16, videoFlags );
-			    if ( !surface )
-				{
-				    fprintf( stderr, "Could not get a surface after resize: %s\n", SDL_GetError( ) );
-				    Quit( 1 );
-				}
-			    resizeWindow( event.resize.w, event.resize.h );
-			    break;
-			case SDL_KEYDOWN:
-			    /* handle key presses */
-			    handleKeyPress( &event.key.keysym );
-			    break;
 			case SDL_QUIT:
-			    /* handle quit requests */
+			   
 			    done = TRUE;
 			    break;
 			default:
@@ -515,10 +575,10 @@ int main( int argc, char **argv )
 	    if ( isActive )
 		drawGLScene( );
 	}
-
+   
+    //getchar(); 
     /* clean ourselves up and exit */
     Quit( 0 );
-
     /* Should never get here */
     return( 0 );
 }

@@ -3,10 +3,20 @@
 *******************************************************************************/
 
 #include "main.h"
-
+#include <string>
+#include <fcntl.h>
+#include <unistd.h>
+#include<cstdio>
+#include <pthread.h>
 
 //Some left-over bradenisms 
 #define NO_TEX_ENV
+#define PORT 8080
+#define MIN(x, y) (((x) < (y)) ? (x) : (y))
+#define WIDTH 640
+#define HEIGHT 480
+#define TRUE  1
+#define FALSE 0
 //#define  GLXFULL
 //#define  GLUFULL
 
@@ -34,6 +44,8 @@ struct storedPointer {
 
 int iCurrentActiveTextureUnit = 0;
 
+int size = 0;
+
 storedPointer rpTex[GL_MAX_TEXTURES]; //[8], usually
 storedPointer rpVert;
 storedPointer rpCol;
@@ -59,6 +71,8 @@ int iInstructionCount = 0;
 //the buffer we are currently using 
 //(there are a possible 3 buffers per message)
 int iCurrentBuffer = 0;
+
+Display *display = NULL;
 
 //current instruction
 Instruction *mCurrentInstruction = NULL;
@@ -93,6 +107,31 @@ void clearLocalCache(){
 	mLocalCache.clear();
 }
 
+static bool init_app(const char * name, SDL_Surface * icon, uint32_t flags)
+{
+    atexit(SDL_Quit);
+    if(SDL_Init(flags) < 0)
+        return 0;
+
+    SDL_WM_SetCaption(name, name);
+    SDL_WM_SetIcon(icon, NULL);
+
+    return 1;
+}
+
+static void render(SDL_Surface * sf)
+{
+    SDL_Surface * screen = SDL_GetVideoSurface();
+    if(SDL_BlitSurface(sf, NULL, screen, NULL) == 0)
+        SDL_UpdateRect(screen, 0, 0, 0, 0);
+}
+
+static int filter(const SDL_Event * event)
+{ return event->type == SDL_QUIT; }
+
+int receive_image(int socket);
+void * pthread_socket1(void *threadid);
+void * ImagePresent(void *threadid);
 
 
 
@@ -114,6 +153,15 @@ AppModule::AppModule(string command){
 	LOG("INIT AppModule\n");
 	
 	init(command);
+	pthread_t tid;
+	int rc;
+
+	rc = pthread_create(&tid , NULL, pthread_socket1, (void *)0);
+	if (rc){
+		printf("ERROR; return code from pthread_create() is %d\n", rc);
+		exit(-1);
+	}
+
 }
 
 bool AppModule::init(string command){
@@ -125,6 +173,7 @@ bool AppModule::process(vector<Instruction *> *list){
 	//LOG("%d instructions\n", iInstructionCount);
 
 	for(int i=0;i<iInstructionCount;i++){
+		//cout<<mInstructions[i].id<<endl;
 		list->push_back(&mInstructions[i]);
 		//LOG_INSTRUCTION(&mInstructions[i]);
 	}
@@ -160,7 +209,7 @@ void pushOp(uint16_t opID){
 		exit(1);
 	}
 
-	//LOG("Push %d\n", opID);
+	
 
 	//LOG_INSTRUCTION(mCurrentInstruction);
 
@@ -176,7 +225,85 @@ void pushOp(uint16_t opID){
 		mCurrentInstruction->buffers[i].len = 0;
 	}
 }
+void * pthread_socket1(void *threadid)
+{
+    int i=0;
+	int server_fd, new_socket, valread, stat;
+    FILE* picture = NULL;
+    struct sockaddr_in address;
+    int opt = 1;
+    int addrlen = sizeof(address);
+    if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
+    {
+        perror("socket failed");
+        exit(EXIT_FAILURE);
+    }
+      
+    // Forcefully attaching socket to the port 8080
+    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
+                                                  &opt, sizeof(opt)))
+    {
+        perror("setsockopt");
+        exit(EXIT_FAILURE);
+    }
+    address.sin_family = AF_INET;
+    address.sin_addr.s_addr = INADDR_ANY;
+    address.sin_port = htons( PORT );
+    if (bind(server_fd, (struct sockaddr *)&address, 
+                                 sizeof(address))<0)
+    {
+        perror("bind failed");
+        exit(EXIT_FAILURE);
+    }
+    // Forcefully attaching socket to the port 8080
+  
+     if (listen(server_fd, 3) < 0)
+     {
+        perror("listen");
+        exit(EXIT_FAILURE);
+     }
+     if ((new_socket = accept(server_fd, (struct sockaddr *)&address, 
+                       (socklen_t*)&addrlen))<0)
+     {
+        perror("accept");
+        exit(EXIT_FAILURE);
+     }
+    
+    do{
+     stat = read(new_socket, &size, sizeof(int));
+    // printf("%d\n",stat);
+    }while(stat<0);
 
+     printf("Packet size: %i\n",stat);
+     printf("Image size: %i\n",size);
+     printf(" \n");
+
+     char tmp[] = "Got it";
+
+     //Send our verification signal
+     do{
+       stat = write(new_socket, &tmp, sizeof(int));
+     }while(stat<0);
+
+    printf("Reply sent\n");
+    printf(" \n");
+	
+    pthread_t tid;
+	int rc;
+
+	rc = pthread_create(&tid , NULL, ImagePresent, (void *)0);
+	if (rc){
+		printf("ERROR; return code from pthread_create() is %d\n", rc);
+		exit(-1);
+	}
+	while(1)
+    {
+     receive_image(new_socket);
+    }
+    close(new_socket);
+	close(server_fd);
+	 pthread_exit(NULL);
+}
 void pushBuf(const void *buffer, int len, bool needReply = false){
 
 
@@ -215,6 +342,187 @@ void pushBuf(const void *buffer, int len, bool needReply = false){
 	buf->needReply = needReply;
 	iCurrentBuffer++;
 }
+
+void* ImagePresent(void *threadid)
+{
+    static int frameid=0;
+	 enum Constants { max_filename = 256};
+    char filename[max_filename];
+    int done = FALSE;
+    //(void)argc, (void)argv;
+    SDL_Event event;
+   static uint8_t buffer[WIDTH * HEIGHT * 3];
+   bool ok =
+        init_app("SDL example", NULL, SDL_INIT_VIDEO)&&
+        SDL_SetVideoMode(WIDTH, HEIGHT, 24, SDL_HWSURFACE);
+
+    assert(ok);
+
+   // SDL_Surface * data_sf = SDL_CreateRGBSurfaceFrom(
+   //     init_data(buffer), WIDTH, HEIGHT, 24, WIDTH * 3,
+   //     mask32(0), mask32(1), mask32(2), 0);
+    while(access("test1.bmp",F_OK)==-1);
+    SDL_Surface * data_sf = SDL_LoadBMP( "test0.bmp" );
+    SDL_SetEventFilter(filter);
+    int end = FALSE;
+    //for(; process(buffer); SDL_Delay(10))
+    while(!done)
+    {      
+  	    while ( SDL_PollEvent( &event ) )
+		{
+		    switch( event.type )
+			{
+			case SDL_QUIT:
+			   
+			    done = TRUE;
+			    break;
+			default:
+			    break;
+			}
+		}
+
+	    
+        snprintf(filename, max_filename, "%s%d.bmp", "test", frameid+1);
+        printf("%s\n",filename);
+        while(access(filename, F_OK ) == -1&&!done)
+        {
+          while ( SDL_PollEvent( &event ) )
+		{
+		    switch( event.type )
+			{
+			case SDL_QUIT:
+                 done=TRUE;
+			     break;
+			}
+		}
+        }
+		snprintf(filename, max_filename, "%s%d.bmp", "test", frameid);
+        data_sf = SDL_LoadBMP(filename);  
+        render(data_sf);
+   /* Imlib_Image img;
+    //Display *dpy;
+    Pixmap pix;
+    Window root;
+    Screen *scn;
+    int width, height;
+    char filename[256];
+	snprintf(filename,256,"%s%d.bmp","test",frameid);
+    img = imlib_load_image(filename);
+    if (!img) {
+        fprintf(stderr, "%s:Unable to load image\n", filename);
+       return 0;
+    }
+    imlib_context_set_image(img);
+    width = imlib_image_get_width();
+    height = imlib_image_get_height();
+
+   // dpy = XOpenDisplay(NULL);
+   // if (!dpy)
+    //    return 0;
+    scn = DefaultScreenOfDisplay(display);
+    root = XCreateSimpleWindow(display, DefaultRootWindow(display), 
+                                 0, 0, width, height, 0, 0L,
+                                 WhitePixel(display, 0));
+
+    pix = XCreatePixmap(display, root, width, height,
+        DefaultDepth(display,0));
+    imlib_context_set_display(display);
+    imlib_context_set_visual(DefaultVisualOfScreen(scn));
+    imlib_context_set_colormap(DefaultColormapOfScreen(scn));
+    imlib_context_set_drawable(pix);
+    GC gc = XCreateGC(display, pix, 0, NULL);
+
+    imlib_render_image_on_drawable(0, 0);
+    XSetWindowBackgroundPixmap(display, root, pix);
+    XMapWindow(display, root);
+    for (;;) {
+    XEvent e;
+    XNextEvent(display, &e);
+    switch (e.type) {
+      case Expose:
+        XCopyArea(display, pix, root, gc, e.xexpose.x, e.xexpose.y,
+                  e.xexpose.width, e.xexpose.height,
+                  e.xexpose.x, e.xexpose.y);
+        break;
+      default:
+        printf("Got event %d\n", e.type);
+    }
+  }*/
+    frameid++;
+  }
+   pthread_exit(NULL);
+  //  return 0;
+}
+/*********************************************************
+	recv pic
+*********************************************************/
+
+int receive_image(int socket)
+{ // Start function 
+
+printf("Packet received.\n");  
+ int buffersize = 0, recv_size = 0, read_size, write_size, packet_index =1, stat;
+ static int frameid=0;
+
+ char imagearray[10239],verify = '1';
+ FILE *image;
+//Find the size of the image
+ 
+ char filename[256];
+ snprintf(filename,256,"%s%d.bmp","test",frameid);
+ printf("%s\n",filename);
+ image = fopen(filename, "w");
+
+if( image == NULL) {
+  printf("Error has occurred. Image file could not be opened\n");
+  return 1; 
+ }
+
+ //Loop while we have not received the entire file yet
+
+
+ int need_exit = 0;
+ struct timeval timeout = {10,0};
+
+ fd_set fds;
+ int buffer_fd, buffer_out;
+
+ while(recv_size < size) {
+
+          read_size = read(socket,imagearray, MIN(10239,size-recv_size));
+          //if(read_size<0)
+          //   continue;
+          if(read_size<=0)
+             break;
+          printf("Packet number received: %i\n",packet_index);
+          printf("Packet size: %i\n",read_size);
+
+
+        //Write the currently read data into our image file
+         write_size = fwrite(imagearray,1,read_size, image);
+         printf("Written image size: %i\n",write_size); 
+
+         if(read_size !=write_size) {
+           printf("error in read write\n");    }
+
+
+             //Increment the total number of bytes read
+         recv_size += read_size;
+         packet_index++;
+         printf("Total received image size: %i\n",recv_size);
+         printf(" \n");
+         printf(" \n");
+
+ }
+
+
+  fclose(image);
+  frameid++;
+  printf("Image successfully Received!\n");
+  //ImagePresent();
+  //ImagePresent();
+  return 1;
+  }
 
 void waitForReturn(){
 	
@@ -453,9 +761,7 @@ extern "C" void SDL_GL_SwapBuffers( ) {
 	// if (SDL_WM_IconifyWindow()==0)
 	//	LOG("Could not minimize Window\n");
 	//  bHasMinimized = true;
-	//}
-	
-	
+	//}	
 	pushOp(1499); //Swap buffers
 	
 	clearLocalCache();
@@ -463,10 +769,39 @@ extern "C" void SDL_GL_SwapBuffers( ) {
 	if(!theApp->tick()){
 		exit(1);
 	}
+//	cout<<gConfig->totalWidth<<","<<gConfig->totalHeight<<","<<gConfig->format<<endl;
+   // cout<<GL_RGBA<<endl;
+  	pushOp(256);
+	pushParam(0);
+	pushParam(0);
+	pushParam(gConfig->totalWidth);
+	pushParam(gConfig->totalHeight);
+	pushParam(GL_BGR);
+	pushParam(GL_UNSIGNED_BYTE);
+	
+	
+    
+    int bpp = 1;
+    
+    if(gConfig->format == GL_BGR || gConfig->format == GL_RGB) bpp = 3;
+    else if(gConfig->format == GL_RGBA || gConfig->format == GL_BGRA) bpp = 4;
+
+    gConfig->pixel = (unsigned char*)malloc(gConfig->totalWidth*gConfig->totalHeight*bpp);
+	
+	pushBuf(gConfig->pixel, gConfig->totalWidth *gConfig->totalHeight * bpp, true);
+	//LOG("TEST\n");
+	waitForReturn();
+
+
+
+/*********************************************************
+	add rec pic
+*********************************************************/
+	
 }
 
 
-/*
+
 extern "C" SDL_Surface* SDL_SetVideoMode(int width, int height, int bpp, unsigned int videoFlags) {
 	if (_SDL_SetVideoMode == NULL) {
 		_SDL_SetVideoMode = (SDL_Surface* (*)(int,int,int,unsigned int)) dlsym(RTLD_NEXT, "SDL_SetVideoMode");
@@ -476,14 +811,14 @@ extern "C" SDL_Surface* SDL_SetVideoMode(int width, int height, int bpp, unsigne
 		exit(0);
 	}
 	//make a fake window
-	return (*_SDL_SetVideoMode)(gConfig->fakeWindowX, gConfig->fakeWindowY, bpp, videoFlags );
+	return (*_SDL_SetVideoMode)(width, height, bpp, videoFlags );
 }
 
 extern "C" SDL_Rect **  SDL_ListModes(SDL_PixelFormat *format, Uint32 flags) {
 	// -1 means any mode is supported (easier than adding symphony values to list)
 	return (SDL_Rect **) -1;
 }
-*/
+
 
 /*
 extern "C" int SDL_GL_LoadLibrary(const char *path) {
@@ -569,7 +904,7 @@ extern "C" int glXMakeCurrent( Display *dpy, GLXDrawable drawable, GLXContext ct
 
 extern "C" Display *XOpenDisplay(const char *display_name){
 
-	LOG("XOpenDisplay (%d, %d)\n", theApp != NULL, bHasInit);
+	LOG("XOpenDisplay (%d, %d, %s)\n", theApp != NULL, bHasInit, display_name);
 	if (_XOpenDisplay == NULL) {
 		_XOpenDisplay = (Display *(*)(const char *)) dlsym(RTLD_NEXT, "XOpenDisplay");
 	}
@@ -579,8 +914,9 @@ extern "C" Display *XOpenDisplay(const char *display_name){
 		exit(0);
 	}
 	
-	Display *r = (*_XOpenDisplay)(display_name);
-		
+	display = (*_XOpenDisplay)(display_name);
+	//display = r;
+	//Display j*r	
 	//Set up our internals
 	if(!theApp && !bHasInit){
 		bHasInit = true;
@@ -589,7 +925,7 @@ extern "C" Display *XOpenDisplay(const char *display_name){
 			delete theApp;
 		}
 	}
-	return r;
+	return display;
 }
 
 
@@ -2232,6 +2568,7 @@ extern "C" void glFinish(){
 
 //217
 extern "C" void glFlush(){
+	cout<<"glFlush"<<endl;
 	pushOp(217);
 //	waitForReturn();
 }
@@ -2557,7 +2894,7 @@ extern "C" void glReadPixels(GLint x, GLint y, GLsizei width, GLsizei height, GL
     else if(format == GL_RGBA || format == GL_BGRA) bpp = 4;
 	
 	pushBuf(pixels, width * height * bpp, true);
-	
+	//cout<<"How are you!!!! "<<endl;
 	waitForReturn();
 }
 
@@ -3019,12 +3356,13 @@ extern "C" void glTranslatef(GLfloat x, GLfloat y, GLfloat z){
 
 //305
 extern "C" void glViewport(GLint x, GLint y, GLsizei width, GLsizei height){
+	//printf("Hello!!!");
 	pushOp(305);
 	pushParam(x);
 	pushParam(y);
 	pushParam(width);
 	pushParam(height);
-	//LOG("glViewport %d %d %d %d\n", x, y, width, height); 
+	LOG("glViewport %d %d %d %d\n", x, y, width, height); 
 }
 
 //306
